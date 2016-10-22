@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="5" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[
+The application url is :- https://www.snapdeal.com]]>
+    </line>
+    <line>
+      <![CDATA[The test browser is :- firefox
+]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP1_SEARCHPRODUCT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP2_VERIFYSEARCHRESULT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP3_SELECTFIRSTPRODUCT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP4_ADDPRODUCTTOCART *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Save Image File Path : C:\Users\shobhitsingh\Desktop\TapTest\tap-sat-oct16\./target/screenshots/\TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented\2016_10_22_02_23_PM\screenshot.png]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP5_VERIFYCART *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[Save Image File Path : C:\Users\shobhitsingh\Desktop\TapTest\tap-sat-oct16\./target/screenshots/\TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented\2016_10_22_02_23_PM\screenshot.png]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28035" started-at="2016-10-22T08:53:33Z" finished-at="2016-10-22T08:54:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28035" started-at="2016-10-22T08:53:33Z" finished-at="2016-10-22T08:54:01Z">
+      <class name="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented">
+        <test-method status="PASS" signature="Start_Test_Session()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="Start_Test_Session" is-config="true" duration-ms="12354" started-at="2016-10-22T14:23:33Z" finished-at="2016-10-22T14:23:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The application url is :- https://www.snapdeal.com]]>
+            </line>
+            <line>
+              <![CDATA[The test browser is :- firefox
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Start_Test_Session -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-10-22T14:23:45Z" finished-at="2016-10-22T14:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep1_SearchProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP1_SEARCHPRODUCT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep1_SearchProduct()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="TestStep1_SearchProduct" duration-ms="3469" started-at="2016-10-22T14:23:45Z" finished-at="2016-10-22T14:23:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep1_SearchProduct -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="take_screenshot_on_failure" is-config="true" duration-ms="11" started-at="2016-10-22T14:23:49Z" finished-at="2016-10-22T14:23:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep1_SearchProduct status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep1_SearchProduct()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-10-22T14:23:49Z" finished-at="2016-10-22T14:23:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep2_VerifySearchResult()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP2_VERIFYSEARCHRESULT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep2_VerifySearchResult()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="TestStep2_VerifySearchResult" duration-ms="1070" started-at="2016-10-22T14:23:49Z" finished-at="2016-10-22T14:23:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep2_VerifySearchResult -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="take_screenshot_on_failure" is-config="true" duration-ms="4" started-at="2016-10-22T14:23:50Z" finished-at="2016-10-22T14:23:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep2_VerifySearchResult status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep2_VerifySearchResult()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-22T14:23:50Z" finished-at="2016-10-22T14:23:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep3_SelectFirstProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP3_SELECTFIRSTPRODUCT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep3_SelectFirstProduct()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="TestStep3_SelectFirstProduct" duration-ms="3770" started-at="2016-10-22T14:23:50Z" finished-at="2016-10-22T14:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep3_SelectFirstProduct -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="take_screenshot_on_failure" is-config="true" duration-ms="3" started-at="2016-10-22T14:23:54Z" finished-at="2016-10-22T14:23:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep3_SelectFirstProduct status=SUCCESS method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep3_SelectFirstProduct()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="FAIL" signature="TestStep4_AddProductToCart()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="TestStep4_AddProductToCart" duration-ms="3" started-at="2016-10-22T14:23:54Z" finished-at="2016-10-22T14:23:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep4_AddProductToCart(TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep4_AddProductToCart -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-22T14:23:54Z" finished-at="2016-10-22T14:23:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep4_AddProductToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP4_ADDPRODUCTTOCART *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="take_screenshot_on_failure" is-config="true" duration-ms="2894" started-at="2016-10-22T14:23:54Z" finished-at="2016-10-22T14:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep4_AddProductToCart status=FAILURE method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep4_AddProductToCart()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Save Image File Path : C:\Users\shobhitsingh\Desktop\TapTest\tap-sat-oct16\./target/screenshots/\TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented\2016_10_22_02_23_PM\screenshot.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2016-10-22T14:23:57Z" finished-at="2016-10-22T14:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep5_VerifyCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP5_VERIFYCART *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="FAIL" signature="TestStep5_VerifyCart()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="TestStep5_VerifyCart" duration-ms="8" started-at="2016-10-22T14:23:57Z" finished-at="2016-10-22T14:23:57Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep5_VerifyCart(TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep5_VerifyCart -->
+        <test-method status="PASS" signature="take_screenshot_on_failure(org.testng.ITestResult)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="take_screenshot_on_failure" is-config="true" duration-ms="3239" started-at="2016-10-22T14:23:57Z" finished-at="2016-10-22T14:24:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep5_VerifyCart status=FAILURE method=TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep5_VerifyCart()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Save Image File Path : C:\Users\shobhitsingh\Desktop\TapTest\tap-sat-oct16\./target/screenshots/\TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented\2016_10_22_02_23_PM\screenshot.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- take_screenshot_on_failure -->
+        <test-method status="PASS" signature="close_Test_Session()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@c3fd8b]" name="close_Test_Session" is-config="true" duration-ms="1180" started-at="2016-10-22T14:24:00Z" finished-at="2016-10-22T14:24:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close_Test_Session -->
+      </class> <!-- com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

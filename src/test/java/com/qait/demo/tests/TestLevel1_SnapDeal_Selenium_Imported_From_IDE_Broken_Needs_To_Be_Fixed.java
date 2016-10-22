@@ -13,6 +13,13 @@
 
 package com.qait.demo.tests;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+
+import com.gargoylesoftware.htmlunit.javascript.host.Set;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.Assert;
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
@@ -27,31 +34,53 @@ public class TestLevel1_SnapDeal_Selenium_Imported_From_IDE_Broken_Needs_To_Be_F
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
-  @BeforeClass(alwaysRun = true)
+  @BeforeMethod
+@BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
     driver = new FirefoxDriver();
     baseUrl = "https://www.snapdeal.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
-  @Test
-  public void testECommerceSite() throws Exception {
+  
+  // Launch snapdeal application
+  @Test()
+  
+  public void testECommerceSite() throws Exception 
+  {
     driver.get(baseUrl + "/");
-    driver.findElement(By.id("inputValEnter")).click();
-    driver.findElement(By.id("inputValEnter")).clear();
-    driver.findElement(By.id("inputValEnter")).sendKeys("mobile");
-    driver.findElement(By.xpath("//button[@onclick=\"submitSearchForm('go_header');\"]")).click();
+    
+  
+  // Search a Product i.e. Mobile
+  
+	  driver.findElement(By.id("inputValEnter")).click();
+	  driver.findElement(By.id("inputValEnter")).click();
+	  driver.findElement(By.id("inputValEnter")).clear();
+	  driver.findElement(By.id("inputValEnter")).sendKeys("mobile");
+	  driver.findElement(By.xpath("//button[@onclick=\"submitSearchForm('go_header');\"]")).click();
+
+  
+  // First Product in the search Results selected
+  
     driver.findElement(By.xpath("(//img[contains(@class,'product-image')])[1]")).click();
+    
+    java.util.Set<String> windows = driver.getWindowHandles();
+    for(String window : windows)
+    driver.switchTo().window(window);
+ 
+  
+  // Add the selected product to cart  
     driver.findElement(By.xpath("//div[@id='add-cart-button-id']/span")).click();
     driver.findElement(By.linkText("Proceed To Checkout")).click();
+  
   }
 
-  @AfterClass(alwaysRun = true)
-  public void tearDown() throws Exception {
+  @AfterMethod
+public void tearDown() throws Exception {
     driver.quit();
     String verificationErrorString = verificationErrors.toString();
     if (!"".equals(verificationErrorString)) {
-      fail(verificationErrorString);
+      Assert.fail(verificationErrorString);
     }
   }
 

@@ -30,8 +30,10 @@ public class ProductDetailsActions extends GetPage {
 
 	}
 
-	public void AddTheProductToCart() {
-		// TODO Auto-generated method stub
+	public void AddTheProductToCart() throws InterruptedException {
+		wait(3);
+		driver.findElement(By.xpath("//div[@id='add-cart-button-id']/span")).click();
+		logMessage("Product Added To Cart");
 		
 	}
 

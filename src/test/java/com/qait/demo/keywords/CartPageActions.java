@@ -31,8 +31,9 @@ public class CartPageActions extends GetPage {
 	}
 
 	public void verifyCart() {
-		// TODO Auto-generated method stub
 		
+		isElementDisplayed("msg_success");
+		logMessage("Product Added To Cart");
 	}
 
 }

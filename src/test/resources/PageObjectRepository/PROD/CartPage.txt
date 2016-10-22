@@ -1,0 +1,3 @@
+
+
+msg_success   xpath   //span[normalize-space(text())='Redmi Note 3 32 GB added to your cart']
